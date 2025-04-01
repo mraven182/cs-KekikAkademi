@@ -9,9 +9,9 @@ import com.lagradost.cloudstream3.utils.AppUtils.parseJson
 import com.lagradost.cloudstream3.utils.AppUtils.toJson
 import java.io.InputStream
 
-class ipTVci : MainAPI() {
-    override var mainUrl              = "https://raw.githubusercontent.com/mraven182/X/main/TRlist.m3u"
-    override var name                 = "ipTVci"
+class radyocenter : MainAPI() {
+    override var mainUrl              = "https://raw.githubusercontent.com/mraven182/X/main/radyocenter.m3u"
+    override var name                 = "radyocenter"
     override val hasMainPage          = true
     override var lang                 = "tr"
     override val hasQuickSearch       = true
